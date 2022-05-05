@@ -1,0 +1,22 @@
+.form__item {
+  font-family: inherit;
+  margin-bottom: 5px;
+}
+.form__item:focus {
+  outline-color: #2f80ed;
+	outline-style: solid;
+	outline-width: 3px;
+}
+
+.form__item::-webkit-input-placeholder {
+  color: #f2f2f2;
+}
+.form__item::-moz-placeholder {
+  color:#f2f2f2;
+}
+.form__item::-ms-input-placeholder {
+  color:#f2f2f2;
+}
+.form__item::placeholder {
+  color:#f2f2f2;
+}
