@@ -1,7 +1,27 @@
 .table__cell_theme_dark {
-  width: 200px;
+  max-width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
   z-index: 2;
+}
+
+@media screen and (max-width: 1109px) {
+  .table__cell_theme_dark {
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .table__cell_theme_dark {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .table__cell_theme_dark {
+    max-width: 700px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }

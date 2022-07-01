@@ -4,3 +4,10 @@
   position: relative;
   padding: 90px 0;
 }
+
+@media screen and (max-width: 1230px) {
+  .kaufman {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}

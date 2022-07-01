@@ -2,6 +2,18 @@
   margin: 0;
   text-align: left;
   line-height: 1.15;
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .table__heading {
+    font-size: calc(44px - 10 * ((100vw - 540px) / (767 - 540)));
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .table__heading {
+    font-size: calc(54px - 6 * ((100vw - 320px) / (540 - 320)));
+  }
 }
