@@ -19,7 +19,7 @@
   .feynman__link {
     width: 50%;
     position: static;
-    margin: 0;
+    margin: 0 20px 0 0;
     text-align: right;
     color: #0400ff;
   }
@@ -27,6 +27,6 @@
 
 @media screen and (max-width: 540px) {
   .feynman__link {
-    font-size: calc(21px + 15 * ((100vw - 320px) / (540 - 320)));
+    font-size: calc(19px + 17 * ((100vw - 320px) / (540 - 320)));
   }
 }
