@@ -12,3 +12,10 @@
   transition: opacity 0.6s linear;
   opacity: 0.5;
 }
+
+@media screen and (max-width: 644px) {
+  .khan__buy-link {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}

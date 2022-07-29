@@ -1,0 +1,21 @@
+.form__button[type="submit"] {
+  margin: 20px 0;
+  height: 40px;
+  border: none;
+  background-color: #2f80ed;
+  color: white;
+}
+
+.form__button[type="submit"]:hover {
+  opacity: 0.7;
+}
+
+.form__button[type="reset"] {
+  border: none;
+  height: 40px;
+  background-color: #9fa0a1;
+}
+
+.form__button[type="reset"]:hover {
+  opacity: 0.7;
+}

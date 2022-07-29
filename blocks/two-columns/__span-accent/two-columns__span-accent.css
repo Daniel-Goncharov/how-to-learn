@@ -1,5 +1,11 @@
 .two-columns__span-accent {
-  line-height: 34px;
+  line-height: 1.5;
   font-size: 24px;
   font-weight: 700;
   }
+
+@media screen and (max-width: 639px) {
+  .two-columns__span-accent {
+    font-size: calc(16px + 8 * ((100vw - 320px) / (639 - 320)));
+  }
+}

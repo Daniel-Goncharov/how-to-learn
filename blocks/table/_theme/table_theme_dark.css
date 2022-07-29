@@ -1,0 +1,12 @@
+.table_theme_dark  {
+  padding-top: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 80px 25px;
+}
+
+@media screen and (max-width: 540px) {
+  .table {
+    padding-top: 40px;
+    row-gap: 40px;
+  }
+}

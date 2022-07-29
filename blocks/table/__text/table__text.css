@@ -2,18 +2,12 @@
   margin: 20px 0 0;
   text-align: left;
   line-height: 1.2;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: normal;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 579px) {
   .table__text {
-    font-size: calc(34px - 10 * ((100vw - 540px) / (767 - 540)));
-  }
-}
-
-@media screen and (max-width: 540px) {
-  .table__text {
-    font-size: calc(44px - 6 * ((100vw - 320px) / (540 - 320)));
+    text-align: center;
   }
 }

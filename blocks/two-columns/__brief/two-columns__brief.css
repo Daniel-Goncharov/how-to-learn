@@ -1,8 +1,14 @@
 .two-columns__brief {
-  max-width: 175px;
+  width: 15%;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+}
+
+@media screen and (max-width: 639px) {
+  .two-columns__brief {
+    font-size: calc(11px + 7 * ((100vw - 320px) / (639 - 320)));
+  }
 }

@@ -1,10 +1,29 @@
 .video__iframe {
-  width: 515px;
-  height: 316px;
+  max-width: 515px;
+  width: 100%;
+  min-height: 316px;
   margin: 0 20px 0 0;
   border: none;
 }
 
 .video__iframe:nth-of-type(2n) {
   margin-right: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .video__iframe {
+    max-width: 717px;
+    min-height: 416px;
+    margin-bottom: 20px;
+  }
+
+  .video__iframe:nth-of-type(2n) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .video__iframe {
+    min-height: calc(216px + 200 * ((100vw - 320px) / (540 - 320)));
+  }
 }

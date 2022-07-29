@@ -1,5 +1,13 @@
 .techniques {
+  max-width: 1550px;
+  padding-right: 25px;
+  padding-left: 25px;
   padding-top: 100px;
-  width: 80%;
   margin: 0 auto 0;
+}
+
+@media screen and (max-width: 629px) {
+  .techniques {
+    padding-top: 50px;
+  }
 }

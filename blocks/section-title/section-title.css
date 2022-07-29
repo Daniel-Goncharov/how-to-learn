@@ -1,8 +1,14 @@
 .section-title {
-  max-width: 60%;
+  max-width: 100%;
   margin: 0 auto 0;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 540px) {
+  .section-title {
+    font-size: calc(38px + 22 * ((100vw - 320px) / (540 - 320)));
+  }
 }

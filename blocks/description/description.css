@@ -1,6 +1,14 @@
 .description {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   background-color: white;
   padding-top: 100px;
+}
+
+@media screen and (max-width: 639px) {
+  .description {
+    padding-top: 25px;
+  }
 }

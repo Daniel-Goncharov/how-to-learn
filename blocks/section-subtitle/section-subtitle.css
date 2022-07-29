@@ -1,8 +1,14 @@
 .section-subtitle {
-  max-width: 60%;
+  max-width: 100%;
   margin: 20px auto 0;
   text-align: center;
-  line-height: 34px;
+  line-height: 1.15;
   font-size: 24px;
   font-weight: normal;
+}
+
+@media screen and (max-width: 540px) {
+  .section-subtitle {
+    font-size: calc(20px + 4 * ((100vw - 320px) / (540 - 320)));
+  }
 }

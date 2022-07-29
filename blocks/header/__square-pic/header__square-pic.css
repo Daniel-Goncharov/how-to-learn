@@ -1,7 +1,7 @@
 .header__square-pic {
   background-color: #2f80ed;
-  height: 568px;
-  width: 568px;
+  height: calc(320px + 248 * ((100vw - 320px) / (1600 - 320)));
+  width: calc(320px + 248 * ((100vw - 320px) / (1600 - 320)));
   position: absolute;
   top: 64px;
   right: 0;

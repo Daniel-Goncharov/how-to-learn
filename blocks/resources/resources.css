@@ -1,10 +1,6 @@
 .resources {
-  padding: 100px 0 217px;
-}
-
-@media screen and (max-width: 1109px) {
-  .resources {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
+  padding: 100px 0 100px;
+  margin: 0 auto;
+  padding-left: 25px;
+  padding-right: 25px;
 }

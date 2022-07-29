@@ -1,5 +1,5 @@
 .form__item_el_comment {
-  width: 800px;
-  height: 300px;
+  min-height: 150px;
+  margin: 0;
 }
 

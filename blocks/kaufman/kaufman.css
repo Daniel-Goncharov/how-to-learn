@@ -1,13 +1,8 @@
 .kaufman {
+  max-width: 1550px;
+  margin: 0 auto;
   background-color: #1f1f1f;
   overflow: hidden;
+  padding: 90px 25px 0;
   position: relative;
-  padding: 90px 0;
-}
-
-@media screen and (max-width: 1230px) {
-  .kaufman {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
 }

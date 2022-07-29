@@ -1,7 +1,17 @@
 .footer__columns {
-  width: 90%;
+  width: 100%;
   min-height: 250px;
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 548px) {
+  .footer__columns {
+    flex-direction: column-reverse;
+    position: relative;
+    bottom: 50px;
+    min-height: 150px;
+    height: 150px;
+  }
 }

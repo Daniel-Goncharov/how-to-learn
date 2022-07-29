@@ -1,7 +1,15 @@
 .video__iframes {
+  width: 100%;
   margin: 0 auto 0;
   display: flex;
   justify-content: center;
   position: relative;
   top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .video__iframes {
+    display: flex;
+    flex-direction: column;
+  }
 }
