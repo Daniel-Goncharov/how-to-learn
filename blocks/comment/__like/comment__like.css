@@ -1,0 +1,18 @@
+.comment__like {
+  background-image: url(../../../images/buttons/thumbs-up-line-icon.svg);
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 0;
+  transition: opacity 0.2s linear;
+}
+
+.comment__like:hover {
+  opacity: 0.6;
+}

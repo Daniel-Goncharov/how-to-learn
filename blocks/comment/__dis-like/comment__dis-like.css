@@ -1,0 +1,17 @@
+.comment__dis-like {
+  background-image: url(../../../images/buttons/thumbs-down-line-icon.svg);
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.2s linear;
+}
+
+.comment__dis-like:hover {
+  opacity: 0.6;
+}

@@ -79,4 +79,11 @@
 @import url(../blocks/menu-burger/__span/menu-burger__span.css);
 @import url(../blocks/menu-burger/burger-menu.css);
 @import url(../blocks/footer/__column/_active/footer__column_active.css);
+@import url(../blocks/comment/__conteiner/comment__conteiner.css);
 @import url(../blocks/comment/__user-name/comment__user-name.css);
+@import url(../blocks/comment/__text/comment__text.css);
+@import url(../blocks/comment/__reaction/comment__reaction.css);
+@import url(../blocks/comment/__like/comment__like.css);
+@import url(../blocks/comment/__like/_active/comment__like_active.css);
+@import url(../blocks/comment/__dis-like/comment__dis-like.css);
+@import url(../blocks/comment/__dis-like/_active/comment__dis-like_active.css);

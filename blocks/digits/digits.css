@@ -1,7 +1,7 @@
 .digits {
   max-width: 1550px;
   margin: 0 auto;
-  padding: 100px 25px 0;
+  padding: 100px 25px 50px;
   background-color: white;
   box-sizing: border-box;
 }

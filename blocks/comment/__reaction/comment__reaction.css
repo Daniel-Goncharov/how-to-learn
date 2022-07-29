@@ -1,0 +1,7 @@
+.comment__reaction {
+  max-width: 1280px;
+  width: 100%;
+  margin: 10px auto 50px;
+  padding: 0;
+  display: flex;
+}
